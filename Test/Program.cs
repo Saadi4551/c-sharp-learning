@@ -1,5 +1,11 @@
-﻿using Test.OppConcept;
+﻿using Test;
 
-ClassA obj = new ClassA();
+Employe parameter = new Employe(12, "Saad", "Values");
+parameter.Empdetail();
 
-obj.Statticfunction();
+Console.WriteLine("\nDefault");
+
+Employe deflt = new Employe();
+
+deflt.Empdetail();
+
