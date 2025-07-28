@@ -1,29 +1,33 @@
 using System.Diagnostics.Contracts;
 
-namespace Test;
+/*namespace Test;
 
 public class Employe
 {
-    public int Id; 
-    public string Name;
+     int id;
+     string firstName;
 
-    public string Val { get; set; }
+     public Employe()
+     {
+          
+     }
+     
+     public Employe(int id, string firstName)
+     {
+          this.id = id;
+          this.firstName = firstName;
+     }
 
-    public Employe(int  id, string name, string val) // Parameterized ctor
-    {
-        Id = id;
-        Name = name;
-        Val = val;
-    }
+     public Employe(Employe e)
+     {
+          this.id = e.id;
+          this.firstName = e.firstName;
+     }
 
-    public Employe() // Default ctor
-    {
-        
-    }
-
-    public void Empdetail()
-    {
-        Console.WriteLine("the id of employee detail {0} : {1}", Id, Val);
-        Console.WriteLine("the name of employee detail {0}",Name);    
-    }
-}
+     public void empdetail()
+     {
+          Console.WriteLine("the id of employe: {0}",id);
+          Console.WriteLine("the name of employe: {0}",firstName);
+          
+     }
+}*/
