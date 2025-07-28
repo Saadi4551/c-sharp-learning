@@ -18,7 +18,7 @@ class childclass : baseclass
 }*/
 
 
-
+ //dynamic polymorphism overridding method
 public class baseclass
 {
     public virtual void method()

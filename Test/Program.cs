@@ -71,5 +71,16 @@ obj.abc(5.5,25);*/
 
 //childclass obj=new childclass();
 //obj.method();
-baseclass obj2 = new childclass();
-obj2.method();
+//baseclass obj2 = new childclass();
+//obj2.method();
+
+
+//Mathoperation obj = new Mathoperation();
+//obj.abc(a:25 ,b:27);
+//obj.abc(4.5,4.7);
+//obj.abc(f:23, g:77, h:34);
+
+Areacalculat obj = new Areacalculat();
+obj.size(5.5,5.5);
+obj.size(c:5, d:5, e:10);
+obj.size(10);
