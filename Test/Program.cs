@@ -34,9 +34,42 @@ Console.WriteLine("\ncopy");
 Person obj2=new Person(obj1);
 obj2.perdetail();*/
 
-Console.WriteLine("static");
-employment obj3 = new employment();
-obj3.emplymentdet();
+//Console.WriteLine("static");
+//employment obj3 = new employment();
+//obj3.emplymentdet();
+
+//A obj = new A(1,name:"fahad");
+//obj.emplymentinfo();
+
+//A obj2 = new A(11,name:"SAAd");
+//obj2.emplymentinfo();
+
+/*Employee obj = new Employee();
+obj.abc(12);
+obj.abc(b:45.5);
+obj.abc(5.5,25);*/
 
 
+//Emp obj1 = new Emp();
+//obj1.id = 2;
+//obj1.name = "saad";
 
+//Emp obj2 = new Emp();
+//obj2.id = 5;
+//obj2.name = "akhtar";
+
+//Emp obj3 = new Emp();
+//obj3 = obj1+obj2;
+//Console.WriteLine(obj3.id);
+//Console.WriteLine(obj3.name);
+
+//childclass obj=new childclass();
+//obj.method();
+//baseclass obj2 = new childclass();
+//obj2.method();
+
+
+//childclass obj=new childclass();
+//obj.method();
+baseclass obj2 = new childclass();
+obj2.method();
