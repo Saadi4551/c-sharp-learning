@@ -1,6 +1,6 @@
 namespace Test;
 
-public class Emp
+/*public class Emp
 {
     //operator overloading
 
@@ -14,4 +14,4 @@ public class Emp
         obj3.name = obj1.name + obj2.name;
         return obj3;
     }
-}
+}*/

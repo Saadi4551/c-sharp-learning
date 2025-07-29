@@ -1,6 +1,6 @@
 namespace Test;
 
-public class Areacalculat
+/*public class Areacalculat
 {
     public void size(double length, double width)
     {
@@ -16,4 +16,4 @@ public class Areacalculat
     {
         Console.WriteLine("size of square is t= {0}: ",t);
     }
-}
+}*/

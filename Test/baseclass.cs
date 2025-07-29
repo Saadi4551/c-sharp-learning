@@ -19,22 +19,7 @@ class childclass : baseclass
 
 
  //dynamic polymorphism overridding method
-public class baseclass
-{
-    public virtual void method()
-    {
-        Console.WriteLine("this is a base class ");
-    }
-}
 
-class childclass : baseclass
-{
-    public override void method()
-    {
-       base.method();
-        Console.WriteLine("this is a child class ");
-    }
-}
 
 
 
