@@ -184,11 +184,29 @@ using Test;
 //obj1.shapes(); 
 
 
-Employees emp1 = new fulltimeemployee(50000);
+/*Employees emp1 = new fulltimeemployee(50000);
 emp1.displayinfo("saad");
 Console.WriteLine("salary: " +emp1.calculateSalary() + "pkr");
 
 
 Employees emp2 = new fulltimeemployee(100000);
 emp2.displayinfo("saad akhtar");
-Console.WriteLine("salary: " +emp2.calculateSalary() + "pkr");
+Console.WriteLine("salary: " +emp2.calculateSalary() + "pkr");*/
+
+
+/*savingaccount obj = new savingaccount(5,50000);
+obj.displayinfo("ali");
+Console.WriteLine("interest: "+obj.CalculateInterest()+"pkr");
+
+currentaccount  obj1 = new currentaccount(3,50000);
+obj1.displayinfo("zara");
+Console.WriteLine("interest"+obj1.CalculateInterest()+"pkr");*/
+
+
+rectangle obj = new rectangle(3.5, 2.5);
+obj.dislayshape("rectangle");
+Console.WriteLine("size: "+obj.calculatearea()+"m");
+
+circle obj1 = new circle(5,3.14);
+obj1.dislayshape("circle");
+Console.WriteLine("size: "+obj1.calculatearea()+"m");;
