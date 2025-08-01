@@ -184,3 +184,11 @@ using Test;
 //obj1.shapes(); 
 
 
+Employees emp1 = new fulltimeemployee(50000);
+emp1.displayinfo("saad");
+Console.WriteLine("salary: " +emp1.calculateSalary() + "pkr");
+
+
+Employees emp2 = new fulltimeemployee(100000);
+emp2.displayinfo("saad akhtar");
+Console.WriteLine("salary: " +emp2.calculateSalary() + "pkr");
