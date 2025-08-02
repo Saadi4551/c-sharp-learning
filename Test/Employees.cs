@@ -1,6 +1,6 @@
 namespace Test;
 
-abstract class Employees
+/*abstract class Employees
 {
     public abstract double calculateSalary();
 
@@ -40,4 +40,4 @@ class parttimeemployee : Employees
     {
         return hourworked * hourrate;
     }
-}
+}*/
