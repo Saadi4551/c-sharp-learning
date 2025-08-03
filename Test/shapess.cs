@@ -1,6 +1,6 @@
-namespace Test;
+//namespace Test;
 
-abstract class shapess
+/*abstract class shapess
 {
     public abstract double calculatearea();
 
@@ -42,4 +42,4 @@ class circle : shapess
     {
         return radius * radius * pie;
     }
-}
+}*/

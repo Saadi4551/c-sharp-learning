@@ -203,10 +203,57 @@ obj1.displayinfo("zara");
 Console.WriteLine("interest"+obj1.CalculateInterest()+"pkr");*/
 
 
-rectangle obj = new rectangle(3.5, 2.5);
+/*rectangle obj = new rectangle(3.5, 2.5);
 obj.dislayshape("rectangle");
 Console.WriteLine("size: "+obj.calculatearea()+"m");
 
 circle obj1 = new circle(5,3.14);
 obj1.dislayshape("circle");
-Console.WriteLine("size: "+obj1.calculatearea()+"m");;
+Console.WriteLine("size: "+obj1.calculatearea()+"m");*/
+
+/*B obj=new B();
+obj.interfacemethod1();
+obj.interfacemethod2();
+obj.interfacemethod3();*/
+
+/*Iprinttable invoive =new invoive();
+invoive.table();
+
+Iprinttable invoive2 =new invoive();
+invoive2.table();*/
+
+//Ivechicle car = new Car();
+//car.driver();   
+
+//Ivechicle bike = new bike();
+//bike.driver();
+
+/*Ishape circle = new circle(5.5);
+Console.WriteLine("area of circle: "+circle.calculatearea());
+
+Ishape rectangle = new rectangle(7.5, 5.5);
+Console.WriteLine("area of rectangle"+rectangle.calculatearea());
+
+Ishape triangle = new triangle(9.5, 5.5);
+Console.WriteLine("area of triangle"+ triangle.calculatearea());*/
+
+
+//multifunction mfp = new multifunction();
+//mfp.printable();
+//mfp.scannable();
+
+/*IAccount saving = new SavingsAccount();
+IAccount current = new CurrentAccount();
+current.Displaybalance();
+saving.Displaybalance();*/
+
+//IPayment creditcard = new Creditcard();
+//IPayment cashpayment = new Creditcard();
+
+//creditcard.processpayment();
+//cashpayment.processpayment();
+
+/*myclass obj = new myclass();
+obj.A();
+obj.B();
+obj.C();*/
