@@ -139,6 +139,10 @@ obj.convertTometer();
 obj.convertTometer()*/
 
 
+using System.Diagnostics.CodeAnalysis;
+using System.Globalization;
+using System.Text.Json.Nodes;
+using Microsoft.VisualBasic.CompilerServices;
 using Test;
 
 //Bus bus = new();
@@ -257,3 +261,63 @@ saving.Displaybalance();*/
 obj.A();
 obj.B();
 obj.C();*/
+
+//AA obj = new AA();
+//obj.B();
+
+//Structure obj = new Structure();
+//obj.name = "saad";
+//obj.ID = 12;
+//Console.WriteLine(obj.ID);
+//Console.WriteLine(obj.name);
+//obj.call(15, "ali");
+//obj.StructuteA();
+
+//Student obj =new Student();
+/*Console.WriteLine(obj.Name = "saad");
+Console.WriteLine(obj.Age = 15);
+Console.WriteLine(obj.marks = 77);*/
+//obj.call(25,"saad",77);
+//obj.Studenta();
+
+/*Points p =new Points(2,3);
+p.display();
+
+Points p2 =new Points(5, 1);
+p2.display();*/
+
+//Months.jar selectedmonth = Months.jar.jun;
+//Console.WriteLine("Selected month: " + selectedmonth);
+//Console.WriteLine("no on month: " + (int)selectedmonth);
+
+//Months.jar selectedmonth2 = Months.jar.dec;
+//Console.WriteLine("selected month: " + selectedmonth2);
+//Console.WriteLine("no of month: " + (int)selectedmonth2);
+//Console.WriteLine((typeof(Months),8));
+
+
+
+//Days salect = Days.friday;
+//Console.WriteLine("salect: " + salect);
+//Console.WriteLine("no of days: " + (int)salect);
+
+//Errorcode obj = Errorcode.servererror;
+//Console.WriteLine(obj);
+//Console.WriteLine("servererror: " + (int)obj);
+
+
+/*Console.WriteLine("enter status {pending, approved, rejected}");
+string input = Console.ReadLine();
+
+if (Enum.TryParse(input, true, out Status status))
+{
+    Console.WriteLine("convert too enum"+ status);
+}
+else
+{
+    Console.WriteLine("invalid inputa");
+}*/
+
+Order myorder = new Order();
+myorder.status = Orderstatus.shipped;
+Console.WriteLine(myorder.status);
